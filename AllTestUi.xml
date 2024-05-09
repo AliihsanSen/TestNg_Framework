@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Param Tech Case Test" parallel="classes" thread-count="3">
+    <test verbose="2" preserve-order="true" name="All Test Ui" >
+        <packages>
+            <package name="tests.ui"></package>
+        </packages>
+    </test>
+</suite>
